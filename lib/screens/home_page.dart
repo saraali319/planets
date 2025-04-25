@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
         margin: const EdgeInsets.all(20),
         child: CustomButton(
           'Explore ${planets[currentPage].planetName}',
-          () {
+              () {
             Navigator.push(
               context,
               MaterialPageRoute(

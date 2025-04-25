@@ -3,7 +3,9 @@
    <application
         android:label="planets_assignment"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+       android:usesCleartextTraffic="true"
+       android:icon="@mipmap/ic_launcher">
+        <!-- ADD THIS LINE -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
